@@ -3,7 +3,7 @@ name: portfolio-devapp
 on:
   push:
     branches:
-      -main 
+      - main 
       
 jobs:
   deploy:
@@ -12,7 +12,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4
 
-      - name: configure AWS credentials 
+      - name: configure AWS Credentials 
         uses: aws-actions/configure-aws-credentials@v4
         with: 
           aws-access-key-id: ${{secrets.AWS_ACCESS_KEY_ID}}
