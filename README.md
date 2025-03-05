@@ -1,2 +1,1 @@
-# potfolio-web-app
-Portfolio registration web application
+# development-portfolio-app
